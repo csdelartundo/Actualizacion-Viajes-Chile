@@ -11988,7 +11988,9 @@ body {
 }
 .card {
   max-width: 100%;
+  height: 210px;
   justify-content: center;
+  padding: 0;
 }
 .card hr {
   border: 0;
@@ -12000,10 +12002,10 @@ body {
 
 .card-img {
   max-width: 100%;
-  height: 210px;
-  max-height: auto;
+  height: 205px;
   -o-object-fit: cover;
      object-fit: cover;
+  align-items: center;
 }
 
 .navbar {
@@ -12031,15 +12033,38 @@ body {
   margin-top: 0;
 }
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .testimonios {
   justify-content: center;
+}
+.testimonios__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.testimonios__title {
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 5rem;
+}
+.testimonios__article {
+  text-align: center;
+  max-width: 300px;
+  flex: 1 1 100%;
 }
 .testimonios__text {
   font-style: italic;
   text-align: center;
+  padding: 1rem;
 }
 .testimonios__img {
-  display: block;
   margin: 0 auto;
   width: 100px;
   height: 100px;

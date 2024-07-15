@@ -1,6 +1,8 @@
 .card {
     max-width: 100%;
+    height: 210px;
     justify-content: center;
+    padding: 0;
     hr {
         border: 0;
         height: 2px;
@@ -12,9 +14,9 @@
 
 .card-img {
     max-width: 100%;
-    height: 210px;
-    max-height: auto;
+    height: 205px;
     object-fit: cover;
+    align-items: center;
 }
 
 
