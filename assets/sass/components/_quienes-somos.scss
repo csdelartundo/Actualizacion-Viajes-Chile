@@ -1,0 +1,23 @@
+.Quienes-somos {
+    hr {
+        border: 0;
+        height: 2px;
+        background: #fff;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .container {
+        .row {
+            display: flex;
+            align-items: start;
+        }
+        .img-group {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        p {
+            margin-top: 0;
+        }
+    }
+}
