@@ -11988,7 +11988,7 @@ body {
 }
 .card {
   max-width: 100%;
-  height: 210px;
+  height: 200px;
   justify-content: center;
   padding: 0;
 }
@@ -12033,18 +12033,10 @@ body {
   margin-top: 0;
 }
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .testimonios {
-  justify-content: center;
-}
-.testimonios__container {
+  margin-top: 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   gap: 2rem;
@@ -12052,12 +12044,16 @@ body {
 .testimonios__title {
   font-weight: bolder;
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 20px;
+}
+.testimonios__articles {
+  text-align: center;
 }
 .testimonios__article {
+  display: inline-block;
   text-align: center;
   max-width: 300px;
-  flex: 1 1 100%;
+  justify-content: center;
 }
 .testimonios__text {
   font-style: italic;
